@@ -10,3 +10,9 @@ users.push(user1);
 users.push(user2);
 users.push(user3);
 console.log(users);
+var getRequest;
+getRequest = "GET";
+function requestHandler(requestType) {
+    console.log(requestType);
+}
+requestHandler("GET");

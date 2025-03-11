@@ -16,6 +16,6 @@ users.push(user2);
 // console.log(users);
 
 for (const key in users) {
-  //   console.log(users[key]); // to print the the value of each index of and object
-  console.log(users[key]["userName"]);
+  console.log(users[key]); // to print the the value of each index of and object
+  //   console.log(users[key]["userName"]); // to print the specific field of a object. in this case it will print the username field of the object
 }
